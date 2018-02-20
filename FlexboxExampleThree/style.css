@@ -1,0 +1,22 @@
+﻿.row {
+    display: flex;
+}
+.row_cell {
+    flex: 1;
+    background-color: aliceblue;
+    color: navy;
+    font-family: SimHei;
+    padding: 10px;
+    align-self: center;
+    
+}
+.container {
+    display: grid;
+    padding: 11px;
+    max-width: 1400px;
+    background-color: darkslateblue;
+    height: 1000px;
+}
+.row_cell--top {
+    align-self: flex-start
+}
